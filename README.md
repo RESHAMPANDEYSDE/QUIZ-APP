@@ -14,7 +14,7 @@ CSS: For styling the quiz, including animations, button effects, and responsive 
 JavaScript: For the quiz logic, timer, scoring system, and dynamic loading of questions.
 How to Run the Project
 Clone the repository:
-git clone 
+git clone https://github.com/RESHAMPANDEYSDE/QUIZ-APP/tree/main
 
 now in the terminal we have to give this command 
 cd quiz-app
