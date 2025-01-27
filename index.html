@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1 class="quiz-title">Quizify</h1>
+        
+        <!-- Timer display -->
+        <div id="timer" class="timer-container">
+            <div class="timer-circle" id="timer-circle">
+                <span id="timer-text">30</span>
+            </div>
+        </div>
+        
+        <div id="question" class="quiz-question"></div>
+        <div id="options" class="quiz-options"></div>
+        <button id="next-button" class="next-btn">Next Question</button>
+        
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        
+        <div id="score-container">
+            <span>Score: <span id="score">0</span></span>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
